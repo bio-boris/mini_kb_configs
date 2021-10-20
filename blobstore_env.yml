@@ -1,6 +1,6 @@
 blobstore_host: 0.0.0.0:8080
 
-mongodb_host: mongo
+mongodb_host: ci-mongo
 mongodb_database: blobstore
 mongodb_user: ""
 mongodb_pwd: ""
