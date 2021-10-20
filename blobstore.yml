@@ -1,0 +1,17 @@
+blobstore_host: 0.0.0.0:8080
+
+mongodb_host: mongo
+mongodb_database: blobstore
+mongodb_user: ""
+mongodb_pwd: ""
+
+s3_host: minio-objectstore:9000
+s3_bucket: ci-blobstore1
+s3_access_key: redacted
+s3_access_secret: redacted
+s3_region: minikb
+s3_disable_ssl: true
+s3_disable_ssl_verify: true
+
+kbase_auth_url: https://nginx/services/auth
+kbase_auth_admin_roles: "KBASE_ADMIN, BLOBSTORE_ADMIN"
